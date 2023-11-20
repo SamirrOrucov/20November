@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // task1
+      const Samir = {
+        name: "Samir",
+        age: 19,
+        color: "Black",
+      };
+      let { name, age } = Samir;
+      console.log(age);
+      console.log(name);
+
+      //   task2
+      const copiedObj = { ...Samir };
+      console.log(copiedObj);
+
+      // task3
+      let Obj2 = { ...Samir, age: 20 };
+      console.log(Obj2);
+
+      // task4
+      const numbers = [3, 1, 5, 3, 4, 5];
+      // numbers.forEach(element => {
+      //     console.log(element);
+
+      // });
+
+      // forEach Custom
+      //   function myForEach(arr, cb) {
+      //     for (let i = 0; i < arr.length; i++) {
+      //       cb(arr[i]);
+      //     }
+      //   }
+      //   myForEach(numbers, (element) => console.log(element));
+      // filter
+
+      // function filter(arr, cb) {
+      //   const newArr = [];
+      //   for (let i = 0; i < arr.length; i++) {
+      //     if (cb(arr[i])) {
+      //       newArr.push(arr[i]);
+      //     }
+      //   }
+      //   return newArr;
+      // }
+      // const arrt = filter(numbers, (element) => element > 3);
+      // console.log(arrt);
+
+      //   map
+
+      // function map(arr, cb) {
+      //   const newArr = [];
+      //   for (let i = 0; i < arr.length; i++) {
+      //     newArr.push(arr[i]);
+      //   }
+      //   return newArr;
+      // }
+      // const arrt = map(numbers, (element) => element);
+      // console.log(arrt);
+
+      // findIndex
+
+      // function findIndex(arr, cb) {
+      //       for (let i = 0; i < arr.length; i++) {
+      //         if (cb(arr[i])) {
+      //           return i
+      //         }
+      //       }
+      //     }
+      //     const arrt = findIndex(numbers, (element) => element%2===0);
+      //     console.log(arrt);
+
+      //   find
+
+      //   function find(arr, cb) {
+      //     for (let i = 0; i < arr.length; i++) {
+      //       if (cb(arr[i])) {
+      //         return arr[i];
+      //       }
+      //     }
+      //   }
+      //   const arrt = find(numbers, (element) => element  === 5);
+      //   console.log(arrt);
+
+
+    //   include
+
+
+    //   function include(arr, item) {
+    //     for (let i = 0; i < arr.length; i++) {
+    //       if (arr[i]===item) {
+    //         return true;
+    //       } 
+    //     }
+    //     return false
+    //   }
+    //   const arrt = include(numbers, 15);
+    //   console.log(arrt);
+
+    for (let i = 0; i <=10; i+=2) {
+        console.log(i);
+        
+    }
+    </script>
+  </body>
+</html>
